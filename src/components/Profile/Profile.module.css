@@ -1,0 +1,55 @@
+.profile {
+  width: 300px;
+  height: 400px;
+  margin: 50px 50px;
+  border: 1px solid grey;
+}
+
+.description {
+  /* padding: 20% 20% 0 30%; */
+  outline: 1px solid black;
+}
+.img {
+  border-radius: 50%;
+  padding: 10%;
+  margin: 0 auto;
+}
+
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #565656;
+  text-align: center;
+}
+
+.tag {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #565656;
+  text-align: center;
+}
+
+.location {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  color: #565656;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.stats {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  color: #565656;
+  text-align: center;
+  font-weight: bold;
+}

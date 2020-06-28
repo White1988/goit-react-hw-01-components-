@@ -1,0 +1,37 @@
+.list {
+  list-style: none;
+}
+.listItem {
+  display: flex;
+  margin-right: 25px;
+  background-color: paleturquoise;
+  border-radius: 10%;
+  margin: 10px 0 10px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 300px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.isActive {
+  composes: status;
+  background-color: green;
+}
+
+.nonActive {
+  composes: status;
+  background-color: red;
+}
+
+.img {
+  margin-right: 20px;
+}
